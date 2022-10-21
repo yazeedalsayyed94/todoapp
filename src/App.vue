@@ -1,23 +1,22 @@
 <template>
   <header>
-    To-Do Application
+    Vuex Form - Example
   </header>
   <main>
-    <Taskbuilder />
-    <Task />
+    <mainform />
   </main>
 </template>
 
 <script>
-import Taskbuilder from './components/Taskbuilder.vue';
+import mainform from './components/mainform.vue';
 
 export default {
   name: 'app',
   components: {
-    Taskbuilder,
+    mainform,
   },
   mounted() {
-    document.title = 'To-Do applecation';
+    document.title = 'Vuex Form - Example';
   },
 };
 </script>
